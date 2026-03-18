@@ -63,7 +63,3 @@ go-repo-deps-checker https://github.com/user/repo --no-progress
 
 - Go 1.21+
 - Доступ к proxy.golang.org (или GOPROXY)
-
-## Лицензия
-
-MIT
