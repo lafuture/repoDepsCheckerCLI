@@ -2,20 +2,6 @@
 
 CLI для проверки обновлений зависимостей в Go репозиториях. Клонирует репозиторий, парсит `go.mod` и показывает список зависимостей, для которых доступны новые версии.
 
-## Установка
-
-```bash
-go install github.com/YOUR_USERNAME/go-repo-deps-checker@latest
-```
-
-Или сборка из исходников:
-
-```bash
-git clone https://github.com/YOUR_USERNAME/go-repo-deps-checker
-cd go-repo-deps-checker
-go build -ldflags "-X repoDepsCheckerCLI/cmd.Version=1.0.0" -o go-repo-deps-checker .
-```
-
 ## Использование
 
 ```bash
